@@ -1,2 +1,2 @@
 #! /bin/bash
-sudo docker build -t app1 .
+sudo docker build -t localhost:8082/app1 .
