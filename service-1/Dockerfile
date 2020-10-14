@@ -1,6 +1,6 @@
 FROM python:3.6
 WORKDIR /home/student/hassan-project/service-1/
-RUN pip install Flask
+RUN pip3 install Flask -r requirements.txt
 COPY . .
 EXPOSE 5000
 ENTRYPOINT ["python3", "app.py"]
