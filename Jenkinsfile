@@ -17,5 +17,10 @@ pipeline{
                     sh "./service-1/push.sh"
                 }
             }
+	    stage('Run Service 1'){
+                steps{
+                    sh "./service-1/run.sh"
+                }
+            }
         }    
 }
