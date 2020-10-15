@@ -4,5 +4,6 @@ WORKDIR /home/jenkins/.jenkins/workspace/project/service-1/
 COPY requirements.txt /home/jenkins/.jenkins/workspace/project/service-1/
 RUN pip3 install -r requirements.txt
 COPY . /home/jenkins/.jenkins/workspace/project/service-1/
+COPY . .
 EXPOSE 5000
 ENTRYPOINT ["python3", "app.py"]
