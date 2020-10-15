@@ -1,12 +1,6 @@
-FROM python:3.6
-<<<<<<< HEAD
-RUN pip install Flask
+FROM python:latest
+RUN apt update && apt install python3-pip -y
 COPY . .
-=======
-WORKDIR /usr/src/app
-COPY requirements.txt /usr/src/app/
-RUN pip install Flask -r requirements.txt
-COPY . /usr/src/app
->>>>>>> d573d2078137f9cce8e5ff8e2a1d764fd9620785
+RUN pip3 install -r requirements.txt
 EXPOSE 5000
 ENTRYPOINT ["python3", "app.py"]
