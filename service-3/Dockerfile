@@ -3,6 +3,6 @@ RUN apt update && apt install python3-pip -y
 WORKDIR /home/app
 COPY requirements.txt /home/app
 RUN pip3 install -r requirements.txt
-COPY ./service-1 /home/app/
-EXPOSE 5000
+COPY . /home/app/
+EXPOSE 5002
 ENTRYPOINT ["python3", "app.py"]
