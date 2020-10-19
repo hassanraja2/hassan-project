@@ -2,25 +2,21 @@ pipeline{
         agent any
         stages{
 		
-	    stage('Create Network'){
+	    stage('Docker-compose build images'){
                 steps{
-                    sh "./network.sh"
+                    sh "./docker_build.sh"
                 }
             }
-            stage('Build Service 1'){
+            stage('Running docker-compose){
                 steps{
-                    sh "./service-1/build.sh"
+                    sh "./docker_run.sh"
                 }
             }
-	    stage('Push & Pull Service 1'){
+	    stage('Push images to Nexus'){
                 steps{
-                    sh "./service-1/push.sh"
+                    sh "./docker_push.sh"
                 }
             }
-	    stage('Run Service 1'){
-                steps{
-                    sh "./service-1/run.sh"
-                }
-            }
+	    
         }    
 }
