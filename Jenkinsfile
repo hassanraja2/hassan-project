@@ -7,7 +7,7 @@ pipeline{
                     sh "./docker_build.sh"
                 }
             }
-            stage('Running docker-compose){
+            stage('Running docker-compose'){
                 steps{
                     sh "./docker_run.sh"
                 }
