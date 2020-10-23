@@ -1,4 +1,5 @@
 #! /bin/bash
+sudp apt install pip3 pytest pytest-cov
 
 python3 -m venv python-testing-venv
 . ./python-testing-venv/bin/activate
