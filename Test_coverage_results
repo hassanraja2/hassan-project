@@ -1,0 +1,86 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.9, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/student/hassan-project
+plugins: cov-2.10.0, requests-mock-1.8.0
+collected 2 items                                                              
+
+service-1/tests/test_unit.py ..                                          [100%]
+
+=============================== warnings summary ===============================
+python-testing-venv/lib/python3.6/site-packages/flask/_compat.py:139
+  /home/student/hassan-project/python-testing-venv/lib/python3.6/site-packages/flask/_compat.py:139: DeprecationWarning: 'flask.json_available' is deprecated and will be removed in version 2.0.0.
+    self._warn()
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+
+----------- coverage: platform linux, python 3.6.9-final-0 -----------
+Name                                Stmts   Miss  Cover
+-------------------------------------------------------
+service-1/application/__init__.py       3      0   100%
+service-1/application/routes.py        18      0   100%
+-------------------------------------------------------
+TOTAL                                  21      0   100%
+
+========================= 2 passed, 1 warning in 0.25s =========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.9, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/student/hassan-project
+plugins: cov-2.10.0, requests-mock-1.8.0
+collected 1 item                                                               
+
+service-2/tests/test_unit.py .                                           [100%]
+
+=============================== warnings summary ===============================
+python-testing-venv/lib/python3.6/site-packages/flask/_compat.py:139
+  /home/student/hassan-project/python-testing-venv/lib/python3.6/site-packages/flask/_compat.py:139: DeprecationWarning: 'flask.json_available' is deprecated and will be removed in version 2.0.0.
+    self._warn()
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+
+----------- coverage: platform linux, python 3.6.9-final-0 -----------
+Name                                Stmts   Miss  Cover
+-------------------------------------------------------
+service-2/application/__init__.py       7      0   100%
+
+========================= 1 passed, 1 warning in 0.22s =========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.9, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/student/hassan-project
+plugins: cov-2.10.0, requests-mock-1.8.0
+collected 1 item                                                               
+
+service-3/tests/test_unit.py .                                           [100%]
+
+=============================== warnings summary ===============================
+python-testing-venv/lib/python3.6/site-packages/flask/_compat.py:139
+  /home/student/hassan-project/python-testing-venv/lib/python3.6/site-packages/flask/_compat.py:139: DeprecationWarning: 'flask.json_available' is deprecated and will be removed in version 2.0.0.
+    self._warn()
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+
+----------- coverage: platform linux, python 3.6.9-final-0 -----------
+Name                                Stmts   Miss  Cover
+-------------------------------------------------------
+service-3/application/__init__.py       6      0   100%
+
+========================= 1 passed, 1 warning in 0.22s =========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.9, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /home/student/hassan-project
+plugins: cov-2.10.0, requests-mock-1.8.0
+collected 2 items                                                              
+
+service-4/tests/test_unit.py ..                                          [100%]
+
+=============================== warnings summary ===============================
+python-testing-venv/lib/python3.6/site-packages/flask/_compat.py:139
+  /home/student/hassan-project/python-testing-venv/lib/python3.6/site-packages/flask/_compat.py:139: DeprecationWarning: 'flask.json_available' is deprecated and will be removed in version 2.0.0.
+    self._warn()
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+
+----------- coverage: platform linux, python 3.6.9-final-0 -----------
+Name                                Stmts   Miss  Cover
+-------------------------------------------------------
+service-4/application/__init__.py       8      0   100%
+
