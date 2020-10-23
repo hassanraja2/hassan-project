@@ -11,4 +11,4 @@ pytest /home/student/hassan-project/service-3 --cov /home/student/hassan-project
 
 pytest /home/student/hassan-project/service-4 --cov /home/student/hassan-project/service-4/application
 
-
+rm -rf python-testing-venv
