@@ -1,0 +1,12 @@
+pipeline{
+        agent any
+        stages{
+            stage('Test Coverage '){
+                steps{
+                    sh "./scripts/test_coverage.sh"
+                }
+            }
+	            
+            
+        }    
+}
