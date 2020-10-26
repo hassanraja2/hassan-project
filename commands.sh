@@ -1,7 +1,7 @@
 #! /bin/bash
 sudo apt install git
 sudo apt install python3
-sudo apt install python-pip
+sudo apt install python3-pip
 sudo apt install curl
 git clone https://github.com/JamesT1992/InstallJenkinsLinux.git
 curl https://get.docker.com | sudo bash
