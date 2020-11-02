@@ -14,5 +14,12 @@ The challenge was quite tricky as it involved working with several tools and tec
 I maanaged to succesfully deploy and test the application and I became confident with using Jenkins, Nexus, Docker and various other tools. 
 
 
-What didn't go as planned?
-Possible improvements for future challenges.
+<h2> What didn't go as planned? </h2>
+
+
+I was having some issues with test-coverage but I apporoached Ben and he helped me to fix the problem.
+
+
+<h2> Possible improvements for future challenges. </h2>
+
+For future challenges, I would like to deploy and test more difficult applications so that I can become even better at using Docker-compose and other tools. 
