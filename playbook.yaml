@@ -1,0 +1,32 @@
+---
+- hosts: 127.0.0.1
+  connection: local
+  become: true
+  tasks:
+  - name: Install depedencies
+    apt:
+      pkg:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - software-properties-common
+      state: latest
+      update_cache: true
+  
+  - name: Adding Docker Apr Key
+    apt_key:
+      url: https://download.docker.com/linux/ubuntu/gpg
+      state: present
+  - name: Adding Docker apt repository
+    apt_repository:
+      repo: deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
+
+  - name: Install docker-ce
+    apt:
+      name: docker-ce
+      state: latest
+ 
+  - name: Start docker service
+    service:
+      name: docker
+      state: started  
