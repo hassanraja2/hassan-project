@@ -11,7 +11,7 @@ The challenge was quite tricky as it involved working with several tools and tec
 
 <h2> What went well? </h2>
 
-I managed to succesfully deploy and test the application and I became confident with using Jenkins, Nexus, Docker and various other tools. 
+I managed to succesfully deploy and test the application and I became confident with using Jenkins, Nexus, Docker and various other tools. In adddition to this, I also used Sonarqube to test the quality of the code which was really interesting to see. 
 
 
 <h2> What didn't go as planned? </h2>
