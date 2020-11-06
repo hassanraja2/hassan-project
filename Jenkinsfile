@@ -2,6 +2,12 @@ pipeline{
         agent any
         stages{
 		
+	    stage('Install Docker using ansible'){
+                steps{
+                    sh "./scripts/playbook.sh"
+                }
+            }
+		
 	    stage('Docker-compose build images'){
                 steps{
                     sh "./scripts/docker_build.sh"
