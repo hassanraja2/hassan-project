@@ -11,13 +11,13 @@ The challenge was quite tricky as it involved working with several tools and tec
 
 <h2> What went well? </h2>
 
-I maanaged to succesfully deploy and test the application and I became confident with using Jenkins, Nexus, Docker and various other tools. 
+I managed to succesfully deploy and test the application and I became confident with using Jenkins, Nexus, Docker and various other tools. 
 
 
 <h2> What didn't go as planned? </h2>
 
 
-I was having some issues with test-coverage but I apporoached Ben and he helped me to fix the problem.
+I was having some issues with unit testing but then after consulting with Ben, I managed to fix the problem. 
 
 
 <h2> Possible improvements for future challenges. </h2>
