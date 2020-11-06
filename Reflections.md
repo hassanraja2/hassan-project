@@ -11,7 +11,7 @@ The challenge was quite tricky as it involved working with several tools and tec
 
 <h2> What went well? </h2>
 
-I managed to succesfully deploy and test the application and I became confident with using Jenkins, Nexus, Docker and various other tools. In adddition to this, I also used Sonarqube to test the quality of the code which was really interesting to see. 
+In terms of deploying the application, I used Jenkins automatation tool, which allowed me to effectively deploy the app onto the relevant ports. Furthermore, I used docker-compose for running the containers and the images have been pushed to the Nexus repository. Please see the BuildSucess file inside Overallmetric folder. Once the application was build, I then conducted unit testing which showed test coverage for each service (Please see the testcoverage file inside Overallmetric folder.) Furthermore, I used Sonarqube to test the quality of the code and to find any security issues with the code and the results have been uploaded as screenshots inside Overall metric folder. It is cruicial to test the application for any flaws because as the developer and DevOps engineer you need to make sure that the work meets the organsiation standard. if the application doesn't get tested, then this can bring an opportnity for hackers to break into the system/ 
 
 
 <h2> What didn't go as planned? </h2>
@@ -21,5 +21,4 @@ I was having some issues with unit testing but then after consulting with Ben, I
 
 
 <h2> Possible improvements for future challenges. </h2>
-
-For future challenges, I would like to deploy and test more difficult applications so that I can become even better at using Docker-compose and other tools. 
+If i did this task again, I would read the breif more carefully as I misundertood the part of inluding ansible playbook which meant I could have saved a lot of time. 
